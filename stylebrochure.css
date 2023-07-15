@@ -1,0 +1,21 @@
+body{
+  background-image:url("fondobrochure.jpg");
+  background-size: cover;
+}
+
+
+.flexbox-container{
+    display:flexbox;
+    flex: 1;
+    align-content: space-around;
+    align-items: center;
+    direction: column;
+  
+  }
+  
+  div{
+    width: 98%;
+    height: 10%;
+    direction: row;
+    border: double;
+  }
